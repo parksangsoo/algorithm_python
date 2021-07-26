@@ -1,0 +1,11 @@
+#숫자의 개수
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = list(str(a*b*c))
+
+for i in range(0,10):
+    print(d.count(str(i)))
+
+
